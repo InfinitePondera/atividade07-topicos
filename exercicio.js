@@ -33,6 +33,6 @@ scoreMaior = apps.filter(() => {
 });
 
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
-//minusculo = apps.map(() => {
-//    return apps.
-//});
+minusculo = apps.map(function (nomes) {
+    return nomes.appname.toLowerCase();
+});

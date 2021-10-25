@@ -28,9 +28,9 @@ installs = apps.reduce(function(installsSoma) {
 });
 
 // EXERCICIO 2: use filter() para selecionar somente apps com score maior que quatro (> 4) 
-//scoreMaior = apps.filter(() => {
-//    return apps.score > 4;
-//});
+scoreMaior = apps.filter(() => {
+    return apps.score > 4;
+});
 
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
 //minusculo = apps.map(() => {
